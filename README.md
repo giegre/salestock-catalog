@@ -30,3 +30,14 @@ Main feature of this app:<br>
 - At the top right of the app, you can see 'Update Product' button, click to go to CMS
 - Before you can see the product lists, you must login with your email and password
 - After you logged in, you can add new products or update existing products. your account logs out automatically if you refresh the page.
+
+
+### `Assumptions`
+
+- Press Load More to load more products
+- This apps only had 12 product data
+- Can only create and updates products, Cannot deletes
+- Input product details only using text
+- After typing email, password and click login button, click newly generated links below login form to access CMS
+- Cannot likes the products, after creating new products, total likes will generated automatically
+- Press Load More to load more products
