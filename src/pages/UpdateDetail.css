@@ -1,0 +1,31 @@
+.update-form-wrapper{
+  margin: 25px auto;
+  background: white;
+  padding: 15px;
+  border: 1px solid #ddd;
+  box-shadow: 0px 0px 3px #ccc;
+}
+
+.update-form-wrapper h4{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.update-form-wrapper .label{
+  font-size: 14px;
+}
+
+.update-form-wrapper img{
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.update-form-wrapper button{
+  margin: auto;
+}
+
+.update-form-buttons{
+  display: flex;
+}

@@ -1,0 +1,40 @@
+.login-wrapper{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-wrapper{
+  background: white;
+  padding: 25px;
+  border: 1px solid #ddd;
+  box-shadow: 0px 0px 3px #ccc;
+  border-radius: 5px;
+}
+
+.form-wrapper .form-inline,
+.form-wrapper .btn.btn-primary{
+  margin: 0 10px;
+}
+
+p#errorText{
+  margin: 15px 0 0;
+  text-align: center;
+  color: red;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+}
+
+p#successText{
+  margin: 15px 0 0;
+  text-align: center;
+  color: green;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+}

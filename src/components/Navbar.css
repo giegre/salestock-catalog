@@ -1,0 +1,6 @@
+.navbar.navbar-light{
+  padding: 0;
+  background: white;
+  border-bottom: 1px solid #aaa;
+  z-index: 100;
+}
