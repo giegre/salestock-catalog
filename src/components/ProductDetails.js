@@ -1,6 +1,7 @@
 import React from 'react';
 import { Col } from 'react-bootstrap/lib/';
 
+//shows selected product details, stateless presentation components (CMIIW)
 const ProductDetails = ({selectedProduct, loadedProduct, onClickHandler}) => {
 
   let product = selectedProduct;

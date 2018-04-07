@@ -4,6 +4,7 @@ import ProductList from '../components/ProductList';
 
 import './home.css';
 
+//shows all products, stateful container components (CMIIW)
 class Home extends React.Component{
   constructor(props){
     super(props);

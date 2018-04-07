@@ -5,6 +5,7 @@ import ImageModal from '../components/ImageModal';
 
 import './details.css';
 
+//shows product details, stateful container components (CMIIW)
 class Details extends React.Component{
   constructor(props){
     super(props);

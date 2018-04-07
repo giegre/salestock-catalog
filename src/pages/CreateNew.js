@@ -5,6 +5,7 @@ import { Col, Form, FormGroup, ControlLabel, FormControl, Button } from 'react-b
 
 import './UpdateDetail.css';
 
+//handles creating new products
 class CreateNew extends React.Component{
   constructor(props){
     super(props);
@@ -66,6 +67,7 @@ class CreateNew extends React.Component{
     });
   }
 
+  //stores new updated details in the database
   handleUpdateChange(){
     let databaseDetail = firebase.database().ref().child("Products").child("product_detail");
     let child = databaseDetail.child(this.state.productName);
@@ -107,6 +109,9 @@ class CreateNew extends React.Component{
   componentWillMount(){
     this.fetchAPI('https://salestock-e55ad.firebaseio.com/Products/product_list.json');
   }
+
+  //Input all product details with string text and number only
+  //To insert image, you must can only insert image online url in the input forms
 
 
   render(){

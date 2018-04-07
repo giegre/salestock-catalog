@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom';
 import Logo from '../logo.png';
 import './Navbar.css';
 
+//Fixed Navigation Bar
 const Navbar = ({page}) => {
 
     return (

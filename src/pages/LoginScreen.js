@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import './LoginScreen.css';
 
+//handles login page before accessing the CMS
 class LoginScreen extends React.Component {
   constructor(props){
     super(props);

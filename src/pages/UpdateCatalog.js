@@ -7,6 +7,7 @@ import UpdateCatalogList from '../components/UpdateCatalogList';
 
 import './UpdateCatalog.css';
 
+//shows all products in the CMS, stateful container components (CMIIW)
 class UpdateCatalog extends React.Component{
   constructor(props){
     super(props);

@@ -1,6 +1,7 @@
 import React from 'react';
 import './ImageModal.css';
 
+//handle image zoom when image thumb clicked in the details
 const ImageModal = ({image, onClickHandler}) => {
 
   return(

@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 import './ProductList.css';
 
+//shows all products in the Home page, stateless presentation components (CMIIW)
 const ProductList = ({ListOfProduct, onClickHandler}) => {
 
   return(

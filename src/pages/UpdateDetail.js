@@ -5,6 +5,7 @@ import { Col, Form, FormGroup, ControlLabel, FormControl, Button } from 'react-b
 
 import './UpdateDetail.css';
 
+//handles updating selected product details
 class Details extends React.Component{
   constructor(props){
     super(props);
@@ -133,6 +134,9 @@ class Details extends React.Component{
     });
 
   }
+
+  //Products can only be updated, cannot be deleted
+  //After Updating the details, the apps didn't redirects you to anywhere, allowing you to updates another updates
 
   render(){
     return(

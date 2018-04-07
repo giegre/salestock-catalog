@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 import './UpdateCatalogList.css';
 
+//shows all product in the CMS, stateless presentation components (CMIIW)
 const UpdateCatalogList = ({ListOfProduct, onClickLoadHandler}) => {
 
   return(
