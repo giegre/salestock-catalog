@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-## Available Scripts
+## Quick Info
 
 before starting this app, do npm install first in this repository directory
 
