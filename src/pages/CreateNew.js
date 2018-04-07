@@ -72,11 +72,15 @@ class CreateNew extends React.Component{
     let databaseDetail = firebase.database().ref().child("Products").child("product_detail");
     let child = databaseDetail.child(this.state.productName);
 
+    let naksir = Math.floor(Math.random() * Math.floor(10000));
+
+    child.child("Name").set(this.state.productName);
     child.child("Price").set(this.state.productPrice);
     child.child("Image").set(this.state.productImage);
     child.child("Image_Big").set(this.state.productImageBig);
     child.child("Description").set(this.state.productDescription);
     child.child("Size").set(this.state.productSize);
+    child.child("Naksir").set(naksir);
 
     let databaseList = firebase.database().ref().child("Products").child("product_list");
     let childList = databaseList.child(this.state.databaseLength);
@@ -86,7 +90,7 @@ class CreateNew extends React.Component{
     childList.child("Image").set(this.state.productImage);
     childList.child("Size").set(this.state.productSize);
     childList.child("Key").set(this.state.databaseLength + 1);
-    childList.child("Naksir").set(Math.floor(Math.random() * Math.floor(10000)));
+    childList.child("Naksir").set(naksir);
 
     alert("Produk baru telah terpasang");
   }
